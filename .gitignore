@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Untitled.ipynb
+
+#
+*.dirlock
+*.lock
+dask-worker-space/
