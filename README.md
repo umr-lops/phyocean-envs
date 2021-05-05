@@ -2,17 +2,17 @@
 
 µMamba/Anaconda environments for ocean physics. PhyOceans envs could be considered as "know good sets" of software and libraries useful for working at LOPS Laboratory (but it's not mandatory). These environments are useful to start with data processing instead of fighting in dependencies hell.
 
-But what is a environment ? An environment is a set of tools installed inside a folder instead of system wide. Classically, environments are useful when you don't have administration rights (HPC center, workstation locked by strange sysadmin) or when you have to switch between versions of the same modules.
+But what is an environment ? An environment is a set of tools installed inside a folder instead of system-wide. Classically, environments are useful when you don't have administration rights (HPC center, workstation locked by strange sysadmin) or when you have to switch between versions of the same modules.
 
-Environments could be preinstalled by system administrators or built by user on home directory (local or network).
+Environments could be preinstalled by system administrators or built by users on home-directories (local or network).
 
-Why used PhyOcean instead of choosing your products yourself
+Why using PhyOcean instead of choosing your products yourself ?
  * Dehydrated software (just add water)
  * Commons envs to share scripts with your colleagues
  * Not only for Python
  * 🔜 Tested with our scripts
 
-Two environments are fixed per year (May and November), *fromveur* environment haven't fixed versions, so use it with caution.
+Two environments are fixed per year (May and November), *fromveur* environment had no fixed versions, so use it with caution.
 
 ## Available environments (stable)
 
@@ -85,9 +85,9 @@ Two environments are fixed per year (May and November), *fromveur* environment h
 
 ## Using PhyOcean envs at LOPS
 
-JupyterHub users, PhyOcean are registered as kernel on JupyterHub LOPS services ([see LOPS internal docs](https://collab.umr-lops.fr/fr/systeme/moyens-de-calcul/kiosque-jupyter-hub))
+JupyterHub users, PhyOcean envs are pre-registered on LOPS JupyterHub services ([see LOPS internal docs](https://collab.umr-lops.fr/fr/systeme/moyens-de-calcul/kiosque-jupyter-hub))
 
-LOPS-IUEM users, these environments are available with `module` on workstation or computing facilities.
+LOPS-IUEM users, these environments are available with `module` on workstations or computing facilities.
 ```
 module load envs/phyocean-2021.05
 ```
@@ -112,7 +112,7 @@ conda activate phyocean-2021.05
 
 ⚠️ bash & zsh shell on Linux & OS X only
 
-microMamba is an open-source implementation of Conda, it aims to be lighter and faster than Conda. microMamba is fully compatible with Conda package, repositories (conda-forge) and environment files.
+microMamba is an open-source implementation of Conda, it aims to be lighter and faster than Conda. microMamba is fully compatible with Conda packages, repositories (conda-forge) and environment files.
 
 First, install microMamba, read install instructions from [Mamba documentation](https://mamba.readthedocs.io/en/latest/micromamba.html).
 
