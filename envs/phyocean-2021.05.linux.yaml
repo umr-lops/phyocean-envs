@@ -56,7 +56,7 @@ dependencies:
  - sparse
  - spyder
  - tensorflow=2.4*
- - cudatoolkit=11*
+ - cudatoolkit=11* 
  - websockify
  - widgetsnbextension
  - xarray=0.17*
