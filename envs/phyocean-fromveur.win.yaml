@@ -1,0 +1,65 @@
+# This file was auto-generated from phyocean-fromveur
+name: phyocean-fromveur
+channels:
+ - conda-forge
+dependencies:
+ - python=3.8*
+ - pip
+ - bokeh
+ - Cartopy
+ - cdsapi
+ - cmocean
+ - Cython
+ - dask
+ - dask-labextension
+ - esgf-pyclient
+ - gcsfs
+ - geopy
+ - geos
+ - geopandas
+ - gpxpy
+ - gsw
+ - h5py
+ - ipykernel
+ - ipywidgets
+ - intake
+ - jupyter
+ - jupyterhub
+ - jupyterlab
+ - jupyterlab-nvdashboard
+ - keras
+ - libgfortran5
+ - libnetcdf
+ - matplotlib
+ - mpi4py
+ - mpich
+ - nbresuse
+ - nc-time-axis
+ - nco
+ - netcdf4
+ - nodejs
+ - nose
+ - notebook
+ - numexpr
+ - numpy
+ - pandas
+ - proj
+ - pyOpenSSL
+ - python-dateutil
+ - pytz
+ - rasterio
+ - s3fs
+ - scikit-learn
+ - scipy
+ - shapely
+ - sparse
+ - spyder
+ - tensorflow
+ - websockify
+ - widgetsnbextension
+ - xarray
+ - zarr
+ - pip:
+   - ferretmagic
+   - ratarmount
+

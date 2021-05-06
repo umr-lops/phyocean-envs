@@ -34,7 +34,7 @@ dependencies:
  - mpich
  - nbresuse
  - nc-time-axis
- - ncview
+ - ncview [ linux or mac ]
  - nco
  - netcdf4
  - nodejs
@@ -55,7 +55,7 @@ dependencies:
  - sparse
  - spyder
  - tensorflow
- - cudatoolkit
+ - cudatoolkit [ linux ]
  - websockify
  - widgetsnbextension
  - xarray
@@ -63,5 +63,5 @@ dependencies:
  - pip:
    - ferretmagic
    - ratarmount
-   - git+https://gitlab.ifremer.fr/cerbere/cerbere.git
+   - git+https://gitlab.ifremer.fr/cerbere/cerbere.git [ linux ]
 

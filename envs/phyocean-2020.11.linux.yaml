@@ -1,3 +1,4 @@
+# This file was auto-generated from phyocean-2020.11
 name: phyocean-2020.11
 channels:
  - conda-forge
@@ -49,7 +50,6 @@ dependencies:
  - shapely=1.7*
  - sparse
  - tensorflow=1.10*
- - cudatoolkit=10*
  - websockify
  - widgetsnbextension
  - xarray=0.16*
