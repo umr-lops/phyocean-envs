@@ -61,7 +61,7 @@ Two environments are fixed per year (May and November), *fromveur* environment h
 </tr>
 </tr>
 <td> Python </td>
-<td> gsw 3.4, gpxpy, matplotlib, mpi4py, rasterio, Bokeh 1.4, Cython 0.29, netcdf4 1.5</td>
+<td> gsw 3.4, gpxpy, matplotlib, Basemap 1.2, Cartopy 0.18, mpi4py, rasterio, Bokeh 1.4, Cython 0.29, netcdf4 1.5</td>
 </tr>
 </tr>
 <td> Python (data) </td>

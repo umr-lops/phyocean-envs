@@ -5,7 +5,8 @@ dependencies:
  - python=3.8*
  - pip
  - bokeh=2.3*
- - Cartopy=0.19*
+ - basemap=1.2*
+ - Cartopy=0.18*
  - cdsapi
  - cmocean=2*
  - Cython=0.29*
@@ -14,7 +15,7 @@ dependencies:
  - esgf-pyclient
  - gcsfs
  - geopy=2.1*
- - geos=3.9*
+ - geos=3.8*
  - geopandas=0.9*
  - gpxpy
  - gsw=3.4*
