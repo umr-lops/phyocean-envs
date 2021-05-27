@@ -63,4 +63,5 @@ dependencies:
  - pip:
    - ferretmagic
    - ratarmount
+   - jupyter-launcher-shortcuts
 

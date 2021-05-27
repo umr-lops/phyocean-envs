@@ -64,5 +64,6 @@ dependencies:
  - pip:
    - ferretmagic
    - ratarmount
+   - jupyter-launcher-shortcuts
    - git+https://gitlab.ifremer.fr/cerbere/cerbere.git [ linux ]
 
