@@ -1,9 +1,12 @@
 name: phyocean-fromveur
 channels:
  - conda-forge
+channels:
+ - conda-forge
 dependencies:
  - python=3.8*
  - pip
+ - basemap
  - bokeh
  - Cartopy
  - cdsapi
@@ -12,14 +15,17 @@ dependencies:
  - dask
  - dask-labextension
  - esgf-pyclient
+ - gcc
  - gcsfs
  - geopy
  - geos
  - geopandas
+ - gfortran
  - gpxpy
  - gsw
  - h5py
  - ipykernel
+ - ipynb-py-convert
  - ipywidgets
  - intake
  - jupyter
@@ -41,9 +47,12 @@ dependencies:
  - nose
  - notebook
  - numexpr
+ - numba
  - numpy
  - pandas
  - proj
+ - pydap
+ - pyferret
  - pyOpenSSL
  - python-dateutil
  - pytz
@@ -54,14 +63,19 @@ dependencies:
  - shapely
  - sparse
  - spyder
+ - sphinx
  - tensorflow
  - cudatoolkit [ linux ]
  - websockify
  - widgetsnbextension
+ - wxpython
  - xarray
+ - xesmf
  - zarr
  - pip:
    - ferretmagic
    - ratarmount
+   - jupyter-launcher-shortcuts
+   - libcloudspawner
    - git+https://gitlab.ifremer.fr/cerbere/cerbere.git [ linux ]
 
