@@ -19,7 +19,7 @@ Two environments are fixed per year (May and November), *fromveur* environment h
 --------
 ### PhyOcean 2021.11
 * Codename: `phyocean-2021.11`
-* Downloads : [linux](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2021.01.linux.yaml) | [macos](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2021.11.macos.yaml) | [win](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2021.11.win.yaml)
+* Downloads : [linux](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2021.11.linux.yaml) | [macos](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2021.11.macos.yaml) | [win](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2021.11.win.yaml)
 
 <table>
 <tr>
