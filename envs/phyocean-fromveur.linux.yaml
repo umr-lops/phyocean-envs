@@ -25,6 +25,7 @@ dependencies:
  - gpxpy
  - gsw
  - h5py
+ - holoviews
  - ipykernel
  - ipynb-py-convert
  - ipywidgets
@@ -51,6 +52,7 @@ dependencies:
  - numba
  - numpy
  - pandas
+ - plotly
  - proj
  - pydap
  - pyferret
@@ -61,6 +63,7 @@ dependencies:
  - s3fs
  - scikit-learn
  - scipy
+ - seaborn
  - shapely
  - sparse
  - spyder
@@ -78,5 +81,3 @@ dependencies:
    - ratarmount
    - jupyter-launcher-shortcuts
    - libcloudspawner
-   - git+https://gitlab.ifremer.fr/cerbere/cerbere.git 
-
