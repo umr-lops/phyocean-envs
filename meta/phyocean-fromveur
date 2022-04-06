@@ -6,6 +6,7 @@ channels:
 dependencies:
  - python=3.8*
  - pip
+ - argopy
  - basemap
  - bokeh
  - Cartopy
@@ -20,15 +21,18 @@ dependencies:
  - geopy
  - geos
  - geopandas
+ - geoviews
  - gfortran
  - gpxpy
  - gsw
  - h5py
  - holoviews
+ - hvplot
  - ipykernel
  - ipynb-py-convert
  - ipywidgets
  - intake
+ - jinja2==2.11.3
  - jupyter
  - jupyterhub
  - jupyterlab
@@ -36,6 +40,7 @@ dependencies:
  - keras
  - libgfortran5
  - libnetcdf
+ - markupsafe=2.0.1
  - matplotlib
  - mpi4py
  - mpich
