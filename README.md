@@ -17,6 +17,36 @@ Two environments are fixed per year (May and November), *fromveur* environment h
 ## Available environments (stable)
 
 --------
+### PhyOcean 2022.05
+* Codename: `phyocean-2022.05`
+* Downloads : [linux](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2022.05.linux.yaml) | [macos](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2022.05.macos.yaml) | [win](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2022.05.win.yaml)
+
+<table>
+<tr>
+<th> Category </th>
+<th> Items </th>
+</tr>
+</tr>
+<td> 🚨 </td>
+<td> Python 3.8, Cuda 11 (🐧), Dask 2022.4, Numpy 1.21, Pandas 1.4, Tensorflow 2.4, Scikit 1.0, xarray 2022.3, PyFerret </td>
+</tr>
+</tr>
+<td> Python </td>
+<td> Holoview, HvPlot, Cerbere (🐧), gsw, gpxpy, Cartopy, matplotlib, mpi4py, rasterio, Bokeh 2.3, Cython 0.29, netcdf4 1.5, wxpython</td>
+</tr>
+</tr>
+<td> Python (data) </td>
+<td> Zarr 2.11, intake 0.6, s3fs, cdsapi, Cerbere, Google Cloud Storage, ESGF Pyclient, ncview (🐧 and 🍏), NCO Tools</td>
+</tr>
+</tr>
+<td> Development </td>
+<td> mpi4py 3.1, f2py, Gcc/gfortran 11.2, JupyterLab 3, Spyder, nodeJS, Sphinx </td>
+</tr>
+</table>
+
+
+
+--------
 ### PhyOcean 2021.11
 * Codename: `phyocean-2021.11`
 * Downloads : [linux](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2021.11.linux.yaml) | [macos](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2021.11.macos.yaml) | [win](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2021.11.win.yaml)
@@ -44,65 +74,7 @@ Two environments are fixed per year (May and November), *fromveur* environment h
 </tr>
 </table>
 
-
---------
-### PhyOcean 2021.05
-* Codename: `phyocean-2021.05`
-* Downloads : [linux](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2021.05.linux.yaml) | [macos](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2021.05.macos.yaml) | [win](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2021.05.win.yaml)
-
-<table>
-<tr>
-<th> Category </th>
-<th> Items </th>
-</tr>
-</tr>
-<td> 🚨 </td>
-<td> Python 3.8, Cuda 11 (🐧), Dask 2021.4, Numpy 1.20, Pandas 4.5, Tensorflow 2.4, Scikit 0.24, xarray 0.17 </td>
-</tr>
-</tr>
-<td> Python </td>
-<td> Cerbere (🐧), gsw 3.4, gpxpy, matplotlib, mpi4py, rasterio, Bokeh 2.3, Cython 0.29, netcdf4 1.5</td>
-</tr>
-</tr>
-<td> Python (data) </td>
-<td> Zarr 2.8, intake 0.6, s3fs, cdsapi, Cerbere, Google Cloud Storage, ESGF Pyclient</td>
-</tr>
-</tr>
-<td> Development </td>
-<td> JupyterLab 3, Spyder, nodeJS 15, ncview (🐧 and 🍏), NCO Tools </td>
-</tr>
-</table>
-
---------
-### PhyOcean 2020.11
-* Platform(s) : 🐧 🍏
-* Codename: `phyocean-2020.11`
-* Downloads : [linux](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2020.11.linux.yaml) | [macos](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2020.11.macos.yaml) | [win](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2020.11.win.yaml)
-
-<table>
-<tr>
-<th> Category </th>
-<th> Items </th>
-</tr>
-</tr>
-<td> 🚨 </td>
-<td> Python 3.6, Cuda 10 (🐧), Dask 2021.1, Numpy 1.18, Pandas 1.1, Tensorflow 1.10, Scikit 0.24, xarray 0.16 </td>
-</tr>
-</tr>
-<td> Python </td>
-<td> gsw 3.4, gpxpy, matplotlib, Basemap 1.2, Cartopy 0.18, mpi4py, rasterio, Bokeh 1.4, Cython 0.29, netcdf4 1.5</td>
-</tr>
-</tr>
-<td> Python (data) </td>
-<td> Zarr 2, intake, s3fs, cdsapi, Google Cloud Storage, ESGF Pyclient</td>
-</tr>
-</tr>
-<td> Development </td>
-<td> JupyterLab 2.0, nodeJS 13</td>
-</tr>
-</table>
-
----------
+## Dev environments (unstable)
 
 ### PhyOcean "Fromveur"
 * Platform(s) : 🐧 🍏
@@ -121,21 +93,12 @@ LOPS-IUEM users, these environments are available with `module` on workstations 
 module load envs/phyocean-2021.11
 ```
 
+## Archived environments
+
+Please see [dedicated page](arch.md).
+
+
 ## Using PhyOcean envs on your computer
-
-### Conda/Anaconda
-
-First, install Anaconda, read install instructions from [Anaconda documentation](https://docs.anaconda.com/anaconda/install/).
-
-Download chosen environment file. Latest stable is [phyocean-2021.05.linux.yaml](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2021.11.linux.yaml) or unfixed [phyocean-fromveur.yaml](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-fromveur.linux.yaml).
-
-```
-conda env create -f ~/Downloads/phyocean-2021.05.yaml
-```
-Next, activate env with
-```
-conda activate phyocean-2021.11
-```
 
 ### MicroMamba
 
@@ -146,10 +109,24 @@ microMamba is an open-source implementation of Conda, it aims to be lighter and 
 First, install microMamba, read install instructions from [Mamba documentation](https://mamba.readthedocs.io/en/latest/micromamba.html).
 
 ```
-micromamba create -f phyocean-2021.11.yaml
+micromamba create -f phyocean-2022.05.yaml
 ```
 Next, activate env with
 ```
-micromamba activate phyocean-2021.11
+micromamba activate phyocean-2022.05
 ```
 
+
+### Conda/Anaconda
+
+First, install Anaconda, read install instructions from [Anaconda documentation](https://docs.anaconda.com/anaconda/install/).
+
+Download chosen environment file. Latest stable is [phyocean-2022.05.linux.yaml](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2022.05.linux.yaml) or unfixed [phyocean-fromveur.yaml](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-fromveur.linux.yaml).
+
+```
+conda env create -f ~/Downloads/phyocean-2022.05.yaml
+```
+Next, activate env with
+```
+conda activate phyocean-2022.05
+```
