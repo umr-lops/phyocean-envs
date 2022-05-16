@@ -69,6 +69,7 @@ dependencies:
  - scikit-learn=1.0.*
  - scipy
  - seaborn
+ - seawater
  - shapely
  - sparse
  - spyder
