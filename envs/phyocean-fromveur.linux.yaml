@@ -30,6 +30,7 @@ dependencies:
  - holoviews
  - hvplot
  - ipykernel
+ - ipyevents
  - ipynb-py-convert
  - ipywidgets
  - intake
@@ -43,6 +44,7 @@ dependencies:
  - libnetcdf
  - markupsafe=2.0.1
  - matplotlib
+ - mayavi
  - mpi4py
  - mpich
  - nbresuse
