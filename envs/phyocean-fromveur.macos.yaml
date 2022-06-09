@@ -16,6 +16,7 @@ dependencies:
  - Cython
  - dask
  - dask-labextension
+ - eofs
  - esgf-pyclient
  - gcc
  - gcsfs
