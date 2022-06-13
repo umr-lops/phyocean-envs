@@ -37,6 +37,7 @@ dependencies:
  - jupyterhub
  - jupyterlab
  - jupyterlab-nvdashboard
+ - jupyter-resource-usage
  - keras==2.4.*
  - libgfortran5
  - libnetcdf

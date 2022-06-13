@@ -40,6 +40,7 @@ dependencies:
  - jupyterhub
  - jupyterlab
  - jupyterlab-nvdashboard
+ - jupyter-resource-usage
  - keras
  - libgfortran5
  - libnetcdf
