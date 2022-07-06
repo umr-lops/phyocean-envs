@@ -81,6 +81,7 @@ dependencies:
  - wxpython
  - xarray=2022.3.*
  - xesmf
+ - xeus-python
  - zarr=2.11.*
  - pip:
    - ferretmagic
