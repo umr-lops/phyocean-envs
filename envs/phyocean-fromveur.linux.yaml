@@ -12,6 +12,7 @@ dependencies:
  - bokeh
  - Cartopy
  - cdsapi
+ - cfgrib
  - cmocean
  - Cython
  - dask
