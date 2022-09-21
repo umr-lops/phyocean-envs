@@ -10,6 +10,7 @@ dependencies:
  - basemap
  - bokeh
  - Cartopy
+ - cartopy_offlinedata
  - cdsapi
  - cfgrib
  - cmocean

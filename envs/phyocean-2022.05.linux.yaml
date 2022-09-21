@@ -10,6 +10,7 @@ dependencies:
  - basemap==1.2.*
  - bokeh==2.4.*
  - Cartopy==0.20.*
+ - cartopy_offlinedata
  - cdsapi
  - cmocean
  - Cython==0.29.*
