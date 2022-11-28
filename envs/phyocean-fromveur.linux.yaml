@@ -49,6 +49,7 @@ dependencies:
  - markupsafe=2.0.1
  - matplotlib
  - mayavi
+ - mkl
  - mpi4py
  - mpich
  - nbresuse
@@ -62,6 +63,7 @@ dependencies:
  - numexpr
  - numba
  - numpy
+ - openpyxl
  - pandas
  - plotly
  - proj
@@ -69,6 +71,7 @@ dependencies:
  - pyferret
  - pyOpenSSL
  - python-dateutil
+ - pytorch
  - pytz
  - rasterio
  - s3fs
