@@ -90,3 +90,4 @@ dependencies:
    - ratarmount
    - jupyter-launcher-shortcuts
    - libcloudspawner
+   - hda

@@ -36,7 +36,7 @@ Two environments are fixed per year (May and November), *fromveur* environment h
 </tr>
 </tr>
 <td> Python (data) </td>
-<td> Zarr 2.13, intake 0.6.6, s3fs, cdsapi, Cerbere, Google Cloud Storage, ESGF Pyclient, ncview (🐧 and 🍏), NCO Tools, Wekeo hba</td>
+<td> Zarr 2.13, intake 0.6.6, s3fs, cdsapi, Cerbere, Google Cloud Storage, ESGF Pyclient, ncview (🐧 and 🍏), NCO Tools, Wekeo hda</td>
 </tr>
 </tr>
 <td> Development </td>
