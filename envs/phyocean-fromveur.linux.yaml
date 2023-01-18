@@ -5,7 +5,7 @@ channels:
 channels:
  - conda-forge
 dependencies:
- - python=3.8*
+ - python==3.10*
  - pip
  - argopy
  - basemap
@@ -13,12 +13,10 @@ dependencies:
  - Cartopy
  - cartopy_offlinedata
  - cdsapi
- - cfgrib
  - cmocean
  - Cython
  - dask
  - dask-labextension
- - eofs
  - esgf-pyclient
  - gcc
  - gcsfs
@@ -30,14 +28,15 @@ dependencies:
  - gpxpy
  - gsw
  - h5py
+ - hdf5
  - holoviews
  - hvplot
  - ipykernel
- - ipyevents
  - ipynb-py-convert
  - ipywidgets
+ - ipympl
  - intake
- - jinja2==2.11.3
+ - jinja2
  - jupyter
  - jupyterhub
  - jupyterlab
@@ -46,10 +45,8 @@ dependencies:
  - keras
  - libgfortran5
  - libnetcdf
- - markupsafe=2.0.1
+ - markupsafe
  - matplotlib
- - mayavi
- - mkl
  - mpi4py
  - mpich
  - nbresuse
@@ -63,15 +60,14 @@ dependencies:
  - numexpr
  - numba
  - numpy
- - openpyxl
  - pandas
  - plotly
+ - postgresql
  - proj
  - pydap
  - pyferret
- - pyOpenSSL
+ - python_abi
  - python-dateutil
- - pytorch
  - pytz
  - rasterio
  - s3fs
@@ -84,16 +80,16 @@ dependencies:
  - spyder
  - sphinx
  - tensorflow
- - cudatoolkit 
+ - cudatoolkit
  - websockify
  - widgetsnbextension
  - wxpython
  - xarray
  - xesmf
- - xeus-python
  - zarr
  - pip:
    - ferretmagic
    - ratarmount
    - jupyter-launcher-shortcuts
    - libcloudspawner
+   - hba
