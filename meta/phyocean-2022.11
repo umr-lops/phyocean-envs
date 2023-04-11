@@ -40,6 +40,7 @@ dependencies:
  - jupyterlab==3.5.1
  - jupyterlab-nvdashboard
  - jupyter-resource-usage
+ - jupytext
  - keras==2.11.0
  - libgfortran5==12.2.0
  - libnetcdf==4.8.1
@@ -84,6 +85,7 @@ dependencies:
  - wxpython
  - xarray==2022.12.0
  - xesmf
+ - xgcm
  - zarr==2.13.3
  - pip:
    - ferretmagic
