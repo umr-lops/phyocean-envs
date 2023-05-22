@@ -16,8 +16,10 @@ dependencies:
  - cmocean
  - Cython=0.29
  - dask=2023.5.0
+ - dask-jobqueue
  - dask-labextension=6.1.0
  - esgf-pyclient
+ - ffmpeg
  - gcc=12.2.0
  - gcsfs
  - geopy
@@ -38,6 +40,7 @@ dependencies:
  - ipywidgets=8.0.6
  - ipympl
  - intake
+ - intake-xarray
  - jinja2
  - jupyter
  - jupyterhub=4.0.0 # To validate on collab / libcloudspawner
@@ -49,6 +52,7 @@ dependencies:
  - libnetcdf=4.8.1
  - markupsafe
  - matplotlib=3.6.3
+ - memory_profiler
  - mpi4py=3.1.4
  - mpich=4.1.1
  - nbresuse
@@ -65,8 +69,10 @@ dependencies:
  - plotly=5.14.1
  - postgresql
  - proj
+ - pyamg
  - pydap
  - pyferret=7.6.5
+ - pyinterp
  - python_abi
  - python-dateutil
  - pytz
@@ -88,6 +94,7 @@ dependencies:
  - xarray=2023.5.0
  - xesmf
  - xgcm
+ - xrft
  - xwrf
  - zarr=2.14.2
  - pip:
