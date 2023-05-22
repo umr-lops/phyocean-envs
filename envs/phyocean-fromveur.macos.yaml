@@ -17,6 +17,7 @@ dependencies:
  - dask
  - dask-labextension
  - esgf-pyclient
+ - f2py
  - gcc
  - gcsfs
  - geopy
@@ -26,7 +27,9 @@ dependencies:
  - gfortran
  - gpxpy
  - gsw
+ - h5netcdf
  - h5py
+ - hda
  - hdf5
  - holoviews
  - hvplot
@@ -41,6 +44,7 @@ dependencies:
  - jupyterlab
  - jupyterlab-nvdashboard
  - jupyter-resource-usage
+ - jupytext
  - keras
  - libgfortran5
  - libnetcdf
@@ -69,6 +73,7 @@ dependencies:
  - python-dateutil
  - pytz
  - rasterio
+ - ratarmount
  - s3fs
  - scikit-learn
  - scipy
@@ -85,10 +90,10 @@ dependencies:
  - wxpython
  - xarray
  - xesmf
+ - xgcm
+ - xwrf
  - zarr
  - pip:
    - ferretmagic
-   - ratarmount
    - jupyter-launcher-shortcuts
    - libcloudspawner
-   - hda
