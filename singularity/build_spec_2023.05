@@ -1,0 +1,39 @@
+BootStrap: docker
+From: mambaorg/micromamba:1.5.1
+
+%files
+    envs/phyocean-2023.05.linux.yaml /env.yaml
+    singularity/jupyter_notebook_config.py /jupyter_notebook_config.py
+    logo-32x32.png
+    logo-64x64.png
+    logo.png
+    logo-svg.svg
+
+%post
+    apt update && apt  -y install jq
+
+    micromamba install --quiet -y -n base -f /env.yaml
+    micromamba clean --all --yes
+
+    # pin version for compatibility with ifr jhub... 
+    micromamba install --quiet -y -n base -c conda-forge batchspawner jupyterhub==2.3.1 jupyterlab
+    
+    # PhyOcean python branding
+    export KERNELJSON="/opt/conda/share/jupyter/kernels/python3/kernel.json"
+    mv $KERNELJSON $KERNELJSON.old
+    jq '.display_name = "Python phyocean-2023.05" ' $KERNELJSON.old > $KERNELJSON
+    cp /logo* /opt/conda/share/jupyter/kernels/python3/
+
+    # 
+    mv /jupyter_notebook_config.py /opt/conda/etc/jupyter/ 
+
+    # Cleaning
+    rm -f /env.yaml /logo* 
+
+%environment
+    export PATH="${PATH}:/opt/conda/bin"
+    export MANPATH="${MANPATH}:/opt/conda/share/man"
+    export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/opt/conda/lib"
+
+%labels
+    Author LOPS Sysadmin associated co.
