@@ -107,7 +107,7 @@ Please see [dedicated page](arch.md).
 
 microMamba is an open-source implementation of Conda, it aims to be lighter and faster than Conda. microMamba is fully compatible with Conda packages, repositories (conda-forge) and environment files.
 
-First, install microMamba, read install instructions from [Mamba documentation](https://mamba.readthedocs.io/en/latest/micromamba.html).
+First, install microMamba, read install instructions from [Mamba documentation](https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html). 
 
 ```
 micromamba create -f phyocean-2022.05.yaml
