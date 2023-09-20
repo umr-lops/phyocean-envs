@@ -134,3 +134,5 @@ Untitled.ipynb
 *.lock
 dask-worker-space/
 .vscode/settings.json
+
+*.sif
