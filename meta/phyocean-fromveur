@@ -48,11 +48,12 @@ dependencies:
  - libnetcdf
  - markupsafe
  - matplotlib
+ - memory_profiler
  - mpi4py
  - mpich
  - nbresuse
  - nc-time-axis
- - ncview [ linux ]
+ - ncview [ linux or mac ]
  - nco
  - netcdf4
  - nodejs
@@ -65,8 +66,10 @@ dependencies:
  - plotly
  - postgresql [ linux ]
  - proj
+ - pyamg
  - pydap
  - pyferret [ linux ]
+ - pyinterp
  - python_abi
  - python-dateutil
  - pytz
@@ -82,13 +85,14 @@ dependencies:
  - spyder
  - sphinx
  - tensorflow
- - cudatoolkit
+ - cudatoolkit [ linux ]
  - websockify [ linux ]
  - widgetsnbextension
  - wxpython
  - xarray
  - xesmf
  - xgcm
+ - xrft
  - xwrf
  - zarr
  - pip:

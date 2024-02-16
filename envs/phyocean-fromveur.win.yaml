@@ -17,8 +17,6 @@ dependencies:
  - dask
  - dask-labextension
  - esgf-pyclient
- - f2py
- - gcc
  - gcsfs
  - geopy
  - geos
@@ -42,7 +40,6 @@ dependencies:
  - jupyter
  - jupyterhub
  - jupyterlab
- - jupyterlab-nvdashboard
  - jupyter-resource-usage
  - jupytext
  - keras
@@ -50,11 +47,11 @@ dependencies:
  - libnetcdf
  - markupsafe
  - matplotlib
+ - memory_profiler
  - mpi4py
  - mpich
  - nbresuse
  - nc-time-axis
- - ncview 
  - nco
  - netcdf4
  - nodejs
@@ -65,10 +62,10 @@ dependencies:
  - numpy
  - pandas
  - plotly
- - postgresql
  - proj
+ - pyamg
  - pydap
- - pyferret
+ - pyinterp
  - python_abi
  - python-dateutil
  - pytz
@@ -84,16 +81,12 @@ dependencies:
  - spyder
  - sphinx
  - tensorflow
- - cudatoolkit
- - websockify
  - widgetsnbextension
  - wxpython
  - xarray
  - xesmf
  - xgcm
+ - xrft
  - xwrf
  - zarr
  - pip:
-   - ferretmagic
-   - jupyter-launcher-shortcuts
-   - libcloudspawner
