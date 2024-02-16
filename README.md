@@ -16,10 +16,9 @@ Two environments are fixed per year (May and November), *fromveur* environment h
 
 ## Available environments (stable)
 
---------
-### PhyOcean 2022.11
-* Codename: `phyocean-2022.11`
-* Downloads : [linux](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2022.11.linux.yaml) | [macos](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2022.11.macos.yaml) | [win](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2022.11.win.yaml)
+### PhyOcean 2023.11
+* Codename: `phyocean-2023.11`
+* Downloads : [linux](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2023.11.linux.yaml) | [macos](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2023.11.macos.yaml) | [win](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2023.11.win.yaml)
 
 <table>
 <tr>
@@ -28,27 +27,25 @@ Two environments are fixed per year (May and November), *fromveur* environment h
 </tr>
 </tr>
 <td> 🚨 </td>
-<td> Python 3.10, Cuda 11.8 (🐧), Dask 2022.11, Numpy 1.23, Pandas 1.5.2, Tensorflow 2.11, Scikit 1.2, xarray 2022.12, PyFerret </td>
+<td> Python 3.10, JupyterLab 4, Cuda 11.8 (🐧), Dask 2024.2, Numpy 1.26, Pandas 2.2, Tensorflow 2.11, Scikit 1.12, xarray 2024.1, PyFerret </td>
 </tr>
 </tr>
 <td> Python </td>
-<td> Cartopy 0.21, matplotlib, holoview, hvplot, Cerbere (🐧), gsw, gpxpy, rasterio, Bokeh 3.0.3, Cython 0.29, netcdf4 1.6.2, wxpython</td>
+<td> Cartopy 0.22, matplotlib, holoview, hvplot, Cerbere (🐧), gsw, gpxpy, rasterio, Bokeh, Cython 3.0.8, netcdf4 1.6, wxpython</td>
 </tr>
 </tr>
 <td> Python (data) </td>
-<td> Zarr 2.13, intake 0.6.6, s3fs, cdsapi, Cerbere, Google Cloud Storage, ESGF Pyclient, ncview (🐧 and 🍏), NCO Tools, Wekeo hda</td>
+<td> Zarr 2.17, intake, s3fs, cdsapi, Cerbere, Google Cloud Storage, ESGF Pyclient, ncview (🐧 and 🍏), NCO Tools, Wekeo hda</td>
 </tr>
 </tr>
 <td> Development </td>
-<td> mpi4py 3.1.4, f2py, Gcc/gfortran 12.2, JupyterLab 3, Spyder, nodeJS, Sphinx </td>
+<td> mpi4py 3.1.4, f2py, Gcc/gfortran 12.2, Spyder, nodeJS, Sphinx </td>
 </tr>
 </table>
 
-
-
-### PhyOcean 2022.05
-* Codename: `phyocean-2022.05`
-* Downloads : [linux](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2022.05.linux.yaml) | [macos](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2022.05.macos.yaml) | [win](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2022.05.win.yaml)
+### PhyOcean 2023.05
+* Codename: `phyocean-2023.11`
+* Downloads : [linux](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2023.05.linux.yaml) | [macos](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2023.05.macos.yaml) | [win](https://raw.githubusercontent.com/umr-lops/phyocean-envs/main/envs/phyocean-2023.05.win.yaml)
 
 <table>
 <tr>
@@ -57,21 +54,28 @@ Two environments are fixed per year (May and November), *fromveur* environment h
 </tr>
 </tr>
 <td> 🚨 </td>
-<td> Python 3.8, Cuda 11 (🐧), Dask 2022.4, Numpy 1.21, Pandas 1.4, Tensorflow 2.4, Scikit 1.0, xarray 2022.3, PyFerret </td>
+<td> Python 3.10, JupyterLab 4, Cuda 11.8 (🐧), Dask 2023.5, Numpy 1.24, Pandas 2.0, Tensorflow 2.11, Scikit 1.10, xarray 2023.5, PyFerret </td>
 </tr>
 </tr>
 <td> Python </td>
-<td> Holoview, HvPlot, Cerbere (🐧), gsw, gpxpy, Cartopy, matplotlib, mpi4py, rasterio, Bokeh 2.3, Cython 0.29, netcdf4 1.5, wxpython</td>
+<td> Cartopy 0.21, matplotlib, holoview, hvplot, Cerbere (🐧), gsw, gpxpy, rasterio, Bokeh, Cython 0.29, netcdf4 1.6, wxpython</td>
 </tr>
 </tr>
 <td> Python (data) </td>
-<td> Zarr 2.11, intake 0.6, s3fs, cdsapi, Cerbere, Google Cloud Storage, ESGF Pyclient, ncview (🐧 and 🍏), NCO Tools</td>
+<td> Zarr 2.14, intake, s3fs, cdsapi, Cerbere, Google Cloud Storage, ESGF Pyclient, ncview (🐧 and 🍏), NCO Tools, Wekeo hda</td>
 </tr>
 </tr>
 <td> Development </td>
-<td> mpi4py 3.1, f2py, Gcc/gfortran 11.2, JupyterLab 3, Spyder, nodeJS, Sphinx </td>
+<td> mpi4py 3.1.4, f2py, Gcc/gfortran 12.2, Spyder, nodeJS, Sphinx</td>
 </tr>
 </table>
+
+
+---
+
+## Old environments
+
+Please see [dedicated page](arch.md).
 
 ---
 
@@ -93,11 +97,6 @@ LOPS-IUEM users, these environments are available with `module` on workstations 
 ```
 module load envs/phyocean-2021.11
 ```
-
-## Archived environments
-
-Please see [dedicated page](arch.md).
-
 
 ## Using PhyOcean envs on your computer
 
