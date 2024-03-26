@@ -39,6 +39,7 @@ dependencies:
  - intake
  - jinja2
  - jupyter
+ - jupyter_app_launcher
  - jupyterhub=4.0.2
  - jupyterlab=4.1.1
  - jupyterlab-nvdashboard 
@@ -48,7 +49,7 @@ dependencies:
  - libgfortran5=13.2.*
  - libnetcdf=4.8.*
  - markupsafe
- - matplotlib=3.6.*
+ - matplotlib=3.7.*
  - memory_profiler
  - mpi4py=3.1.*
  - mpich=4.1.*

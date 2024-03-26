@@ -38,6 +38,7 @@ dependencies:
  - intake
  - jinja2
  - jupyter
+ - jupyter_app_launcher
  - jupyterhub
  - jupyterlab
  - jupyter-resource-usage
